@@ -13,7 +13,7 @@ const Hero = () => {
         >
           <p className="greeting">Hello, I'm</p>
           <h1 className="name">Bavani Kannan</h1>
-          <h2 className="title">Mobile App Full Stack </h2>
+          <h2 className="title">Mobile App Full Stack Developer </h2>
           <p className="tagline">
             Building mobile & web apps with{' '}
             <span className="highlight">React Native</span>,{' '}
