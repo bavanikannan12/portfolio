@@ -18,7 +18,7 @@ const Hero = () => {
             Building mobile & web apps with{' '}
             <span className="highlight">React Native</span>,{' '}
             <span className="highlight">Flutter</span> &{' '}
-            <span className="highlight">Node.js</span>
+            <span className="highlight">React.js</span>
           </p>
 
           <div className="hero-buttons">
@@ -55,12 +55,13 @@ const Hero = () => {
               <code>
 {`class Developer {
   name: "Bavani Kannan";
-  role: "Mobile App Full Stack Intern";
+  role: "Mobile App Full Stack Developer";
   skills: [
     "React Native",
     "Flutter",
-    "Node.js",
+    "React.js",
     "Django"
+    "Node.js"
   ];
 
   buildApp() {
