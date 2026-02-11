@@ -3,9 +3,9 @@ import { motion } from 'framer-motion'
 const Experience = () => {
   const experiences = [
     {
-      title: 'Frontend Developer Intern',
+      title: 'Mobile App Developer Intern',
       company: 'Techjays',
-      duration: 'Present | 7 Months',
+      duration: '8 Months',
       responsibilities: [
         'Developed mobile applications using Flutter and React Native',
         'Implemented Firebase Authentication and Firestore',
