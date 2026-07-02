@@ -142,7 +142,7 @@ function initDatabase() {
     );
 
     insertProject.run(
-      'JaySim',
+      'ClearPitch',
       'Client Simulation Platform',
       'AI-powered platform for practicing client communication with Google Gemini. Features 7 scenarios, timed sessions, and structured feedback.',
       'React.js,Node.js,MySQL'
@@ -159,19 +159,44 @@ function initDatabase() {
   // Insert default experience if table is empty
   const expCount = db.prepare('SELECT COUNT(*) as count FROM experience').get();
   if (expCount.count === 0) {
-    db.prepare(`
+    const insertExp = db.prepare(`
       INSERT INTO experience (title, company, duration, responsibilities)
       VALUES (?, ?, ?, ?)
-    `).run(
-      'Frontend Developer Intern',
-      'Techjays',
-      'Present | 7 Months',
+    `);
+
+    insertExp.run(
+      'Software Developer Intern',
+      'KGS Techway Services',
+      'March 2026 - June 2026',
       JSON.stringify([
-        'Developed mobile applications using Flutter and React Native',
-        'Implemented Firebase Authentication and Firestore',
-        'Applied Riverpod for state management',
-        'Fixed UI issues related to fonts, alignment, and responsiveness',
-        'Collaborated with designers and followed Agile practices'
+        'Assisted in frontend and backend development of web applications.',
+        'Wrote clean, maintainable, and efficient code in React.js and Node.js.',
+        'Participated in code reviews and collaborated with team members.',
+        'Designed and optimized database schemas and queries.'
+      ])
+    );
+
+    insertExp.run(
+      'Mobile App Developer Intern',
+      'Techjays',
+      'July 2025 - February 2026',
+      JSON.stringify([
+        'Developed cross-platform mobile apps for Android and iOS using React Native and Flutter.',
+        'Implemented state management and local storage solutions.',
+        'Collaborated on version control using Git and agile workflows.',
+        'Conducted testing and debugging to ensure smooth app performance.'
+      ])
+    );
+
+    insertExp.run(
+      'React Native Developer Intern',
+      'Mentor Bridge',
+      'July 2024 - May 2025',
+      JSON.stringify([
+        'Built and maintained mobile applications using React Native.',
+        'Collaborated with UI/UX designers to implement pixel-perfect user interfaces.',
+        'Integrated RESTful APIs and managed application state.',
+        'Optimized application performance and resolved cross-platform bugs.'
       ])
     );
   }
