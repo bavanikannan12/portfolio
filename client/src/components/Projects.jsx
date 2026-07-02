@@ -5,11 +5,11 @@ const Projects = () => {
   const projects = [
     {
       icon: <FaComments />,
-      title: 'JaySim',
+      title: 'ClearPitch',
       subtitle: 'Client Simulation Platform',
       description: 'AI-powered platform for practicing client communication with Google Gemini. Features 7 scenarios, timed sessions, and structured feedback.',
       techStack: ['React.js', 'Node.js', 'MySQL'],
-      link: 'https://jaysim-ai.vercel.app/'
+      link: 'https://clearpitch.vercel.app/'
     },
     {
       icon: <FaUsers />,

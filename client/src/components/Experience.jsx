@@ -3,15 +3,36 @@ import { motion } from 'framer-motion'
 const Experience = () => {
   const experiences = [
     {
-      title: 'Frontend Developer Intern',
-      company: 'Techjays',
-      duration: 'Present | 7 Months',
+      title: 'Software Developer Intern',
+      company: 'KGS Techway Services',
+      duration: 'March 2026 - June 2026',
       responsibilities: [
-        'Developed mobile applications using Flutter and React Native',
-        'Implemented Firebase Authentication and Firestore',
-        'Applied Riverpod for state management',
-        'Fixed UI issues related to fonts, alignment, and responsiveness',
-        'Collaborated with designers and followed Agile practices'
+        'Assisted in frontend and backend development of web applications.',
+        'Wrote clean, maintainable, and efficient code in React.js and Node.js.',
+        'Participated in code reviews and collaborated with team members.',
+        'Designed and optimized database schemas and queries.'
+      ]
+    },
+    {
+      title: 'Mobile App Developer Intern',
+      company: 'Techjays',
+      duration: 'July 2025 - February 2026',
+      responsibilities: [
+        'Developed cross-platform mobile apps for Android and iOS using React Native and Flutter.',
+        'Implemented state management and local storage solutions.',
+        'Collaborated on version control using Git and agile workflows.',
+        'Conducted testing and debugging to ensure smooth app performance.'
+      ]
+    },
+    {
+      title: 'React Native Developer Intern',
+      company: 'Mentor Bridge',
+      duration: 'July 2024 - May 2025',
+      responsibilities: [
+        'Built and maintained mobile applications using React Native.',
+        'Collaborated with UI/UX designers to implement pixel-perfect user interfaces.',
+        'Integrated RESTful APIs and managed application state.',
+        'Optimized application performance and resolved cross-platform bugs.'
       ]
     }
   ]

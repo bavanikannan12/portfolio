@@ -55,7 +55,7 @@ const Hero = () => {
               <code>
 {`class Developer {
   name: "Bavani Kannan";
-  role: "Mobile App Full Stack Intern";
+  role: "Mobile App Full Stack Developer";
   skills: [
     "React Native",
     "Flutter",
