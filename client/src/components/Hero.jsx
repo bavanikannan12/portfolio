@@ -13,12 +13,12 @@ const Hero = () => {
         >
           <p className="greeting">Hello, I'm</p>
           <h1 className="name">Bavani Kannan</h1>
-          <h2 className="title">Mobile App Full Stack Intern</h2>
+          <h2 className="title">Mobile App Full Stack Developer </h2>
           <p className="tagline">
             Building mobile & web apps with{' '}
             <span className="highlight">React Native</span>,{' '}
             <span className="highlight">Flutter</span> &{' '}
-            <span className="highlight">Node.js</span>
+            <span className="highlight">React.js</span>
           </p>
 
           <div className="hero-buttons">
@@ -59,8 +59,9 @@ const Hero = () => {
   skills: [
     "React Native",
     "Flutter",
-    "Node.js",
+    "React.js",
     "Django"
+    "Node.js"
   ];
 
   buildApp() {

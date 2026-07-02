@@ -32,7 +32,7 @@ const About = () => {
             transition={{ delay: 0.2 }}
           >
             <p className="lead">
-              Mobile App Full Stack Intern with a passion for creating beautiful, functional mobile and web applications.
+              Mobile App Full Stack Developer with a passion for creating beautiful, functional mobile and web applications.
             </p>
             <p>
               I specialize in building mobile apps with React Native and Flutter, web applications with React.js, and robust backends using Node.js and Django with SQL databases.
